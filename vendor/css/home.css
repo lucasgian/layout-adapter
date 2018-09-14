@@ -1,0 +1,133 @@
+
+img.displayed {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+}
+
+div.sobre {
+
+background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%)!important;
+
+}
+
+
+img.logo {
+
+	margin-top: 15em;
+	width: 15em;
+	height: 15em;
+	margin-bottom: 20em;
+  transition-duration: 0.5s;
+
+}
+
+img.logo:hover {
+
+ transform: scale(1.04); 
+
+}
+
+img.size {
+
+	max-width: 5em;
+    max-height: 5em;
+
+}
+
+nav.custom {
+
+	background: black!important;
+
+}
+
+div.space {
+
+  line-height: ;
+
+}
+
+
+
+/*
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: red;
+}*/
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: red!important;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: red!important;
+}
+
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+  }
+  #mainNav .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: font-size 0.3s;
+    -moz-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+  #mainNav .navbar-nav {
+    margin-top: 0;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: white!important;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: white!important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+
+	color: red!important;
+
+}
+
+div.linegray {
+
+	background-color: white;
+
+}
+
+
+h1.position {
+
+	text-align: center;
+	padding-top: 1.5em;
+	margin-bottom: 1.5em;
+
+}
+
+.center {
+
+	text-align: center;
+
+}
